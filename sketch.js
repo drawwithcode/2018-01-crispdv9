@@ -10,7 +10,7 @@ function draw() {
 	background(204);
 
 	//Neck
-	strokeWeight(2)
+	strokeWeight(3)
 	line(260, 280, 260, 340);
 	line(270,275,270,335);
 	line(280,270,280,330);
@@ -24,11 +24,12 @@ function draw() {
 	fill(96,94,96)
 	rect(200,335,100,8);
 	//Head
-	strokeWeight(2);
+	strokeWeight(3);
   stroke(96,94,96,60);
   line(265,235,235,200)
   line(290,130,280,200);
   line(335,260,290,245)
+	strokeWeight(0);
 	fill(0,0,0)
 	ellipse(270, 240, 90, 90);
 	fill(255,255,255);
