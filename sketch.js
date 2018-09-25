@@ -7,12 +7,12 @@ function setup() {
 }
 
 function draw() {
-	background(110,219,255);
+	background(111,167,178);
 	strokeWeight(0)
 	//floor
-	fill(31,78,18)
+	fill(31,78,18,200)
 	rect(0,440,500,500)
-	fill(0,179,48)
+	fill(83,145,83)
 	rect(0,450,500,500)
 	//sole
 	fill(252,204,40,100)
