@@ -7,7 +7,11 @@ function setup() {
 }
 
 function draw() {
-
+	background(110,219,255);
+	strokeWeight(0)
+	//floor
+	fill(0,179,48)
+	rect(0,450,500,500)
 	//sole
 	fill(252,204,40)
 	ellipse(100,100,60)
