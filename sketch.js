@@ -96,6 +96,7 @@ function draw() {
 	ellipse(295,215,8);
 	fill(96,94,96);
 	ellipse(300,245,6);
-	strokeWeight(0);
+	strokeWeight(1);
+	stroke(0,0,0,100)
 	rect(220,260,40,20);
 }
