@@ -66,32 +66,32 @@ function draw() {
 	strokeWeight(3);
   stroke(0,0,0);
   line(290,130,280,200);
-	stroke(96,94,96);
+	stroke(96,94,96,100);
 	line(310,120,320,100);
-	stroke(96,94,96);
+	stroke(96,94,96,100);
 	line(295,120,298,110);
-	stroke(96,94,96);
+	stroke(96,94,96,100);
 	line(280,120,270,100);
 	strokeWeight(0);
 	stroke(0,0,0);
 	fill(86,85,85,140)
-	rect(180,195,160,100)
+	rect(180,195,140,100)
 	fill(63,62,62);
-	rect(185, 200, 150, 90);
+	rect(185, 200, 130, 90);
 	strokeWeight(1);
 	fill(255,255,255);
-	ellipse(283,233,28);
+	ellipse(265,233,28);
 	strokeWeight(1);
 	fill(255,255,255);
-	ellipse(230,233,28);
+	ellipse(240,233,28);
 	strokeWeight(0)
 	fill(0,0,0);
-	ellipse(230,233,5);
+	ellipse(233,233,9);
 	strokeWeight(0);
 	fill(0,0,0);
-	ellipse(283,233,5);
+	ellipse(262,233,9);
 	fill(96,94,96);
-	ellipse(258,230,10);
+	ellipse(200,230,10);
 	fill(96,94,96);
 	ellipse(295,215,8);
 	fill(96,94,96);
@@ -100,4 +100,7 @@ function draw() {
 	stroke(0,0,0,100)
 	rect(220,260,40,20);
 	stroke(0)
+	strokeWeight(2)
+	line(220,220,240,210)
+	line(280,220,260,210)
 }
