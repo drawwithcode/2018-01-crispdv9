@@ -99,4 +99,5 @@ function draw() {
 	strokeWeight(1);
 	stroke(0,0,0,100)
 	rect(220,260,40,20);
+	stroke(0)
 }
